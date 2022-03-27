@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="top">
+        <center>
+            <a href="./Account.html"> <button>Step 1:Account </button></a> <a href="./Personal.html"><button>  Step 2:Personal Details</button > </a> <a href="./Review.html"><button>Step 3:Your Review</button></a>
+        </center></div> 
+      
+        <div class="container"> 
+      
+            <form action="./index.html" > 
+               
+            <fieldset  >
+             
+               <legend class="six">  <strong>Your Review</strong></legend>
+               <br>
+               
+               <Label for="hear-about"><strong> How did you hear about us?</strong> </Label>
+               <select name=" How did you hear about us" id="hear-about">
+                <option value="Select option">Select option</option>
+
+                   <option value="Teacher" aria-required="false"> From Teacher</option>
+                   <option value="Friend">From Friend</option>
+                   <option value="Relative">From Relative</option>
+                   <option value="Relative">From Parents</option>
+               </select>
+               <br>
+               <br>
+                
+              <label for="visit again"> <strong>Would You Visit Again? </strong>  </label><br>
+              <input type="radio" name="visit again" id="visit again" value="Yes" required>Yes 
+              <input type="radio" name="visit again" id="visit again" value="No" required>No 
+              <input type="radio" name="visit again" id="visit again" value="Maybe" required> Maybe
+                <br />
+                <br />
+               <strong>Comments:</strong> 
+               <textarea required name="Enter your Coment" id="" cols="60" rows="5" placeholder="Enter Your Comment...."></textarea>
+               <label for="Documents"><strong>Documents: </strong> </label><br>
+               <input type="file" name="Document" required >
+               <br>
+               <br>
+               <input required type="checkbox" value="Sign up" > <strong> Sign me up for Email Updates</strong>
+
+                <br><br><br><br>
+               <a href="Personal.html"> <img src="./images/back.png" width="150" height="50"></a>
+               <button type="submit"><a href="./index.html"></a><img width="150" height="50" src="./images/submit.png" alt=""></button>
+            </fieldset>        
+        </form>   
+    </div>
+                    
+    
+
+
+ 
+    
+    
+    
+                </fieldset>
+    
+            </form>
+    
+        </div>
+    
+</body>
+</html>

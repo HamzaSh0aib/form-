@@ -1,0 +1,16 @@
+.container{
+width: 360px;
+height: 360px;
+margin: 3% 8% 8% 26%;
+position: relative;
+}
+.top{
+ margin-top: 5%;
+ color: darkcyan;
+}
+.six{
+    font-size: 20px;
+}
+
+
+
